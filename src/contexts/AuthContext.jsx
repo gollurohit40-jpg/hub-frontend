@@ -3,7 +3,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 // Set base URL for all axios requests
-axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL || 'https://hub-backend-m30s.onrender.com';
 
 const AuthContext = createContext();
 
